@@ -100,7 +100,7 @@ span{
     position: absolute;
     width: 400px;
     height: 400px;
-    bottom: 100px;
+    bottom: 80px;
     background-color: rgb(0, 152, 255);
     border-radius: 50%;
 }  
@@ -111,7 +111,7 @@ span{
     background-color: rgb(22, 33, 73);
     float: left;
 }
-.serviceBox h3{
-    color: aliceblue;
-    
+.container{
+    padding-left: 200px;
+    display: flex;
 }
