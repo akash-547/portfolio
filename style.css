@@ -114,14 +114,15 @@ span{
 .container{
     display: flex;
     margin-top: 20px;
-    padding-left: 90px;
+    padding-left: 150px;
+    
 }
 .serviceBox{
-    width: 300px;
+    width: 250px;
     padding: 20px;
-    text-align: center;
+    height: 200px;
     cursor: pointer;
-    border: 1px solid;
+    border-radius:  10px;
     margin: 20px;
-    background-color: rgba(101, 10, 219, 0.534);
+    background-color: rgb(59, 43, 114);
 }
