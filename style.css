@@ -112,6 +112,16 @@ span{
     float: left;
 }
 .container{
-    padding-left: 200px;
     display: flex;
+    margin-top: 20px;
+    padding-left: 90px;
+}
+.serviceBox{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid;
+    margin: 20px;
+    background-color: rgba(101, 10, 219, 0.534);
 }
