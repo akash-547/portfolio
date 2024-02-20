@@ -117,6 +117,10 @@ span{
     padding-left: 150px;
     
 }
+.serviceBox h3{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serifs;
+}
 .serviceBox{
     width: 250px;
     padding: 20px;
