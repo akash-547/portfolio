@@ -3,16 +3,18 @@ body{
     margin: 0px;
     box-sizing: border-box;
 }
+main{
+    background-color: rgb(22, 33, 73);
+}
 /* header styling */
 #header{
     width: 100%;
-    height: 100px;
     background-color: rgb(22, 33, 73);
     display: flex;
+    height: 100px;
 }
 .navbar{
     width: 100%;
-    height: 100px;
     position: fixed;
     z-index: 9;
 }
@@ -50,7 +52,7 @@ span{
 }
 /* heroSection stying */
 #heroSection{
-    height: 500px;
+    height: 100vh;
     width: 100%;
     background-color: rgb(22, 33, 73);
 }
@@ -113,15 +115,14 @@ span{
 /* servicesSsection */
 #servicesSection{
     width: 100%;
-    height: 400px;
-    background-color: rgb(22, 33, 73);
     /* float: left; */
-    
 }
 .container{
     display: flex;
     /* margin-top: 20px; */
     padding-left: 150px;
+    background-color: rgb(22, 33, 73);
+    
     
 }
 .serviceBox1 h3,.serviceBox2 h3,.serviceBox3 h3{
@@ -140,9 +141,7 @@ span{
 /* marketingSection */
 #marketingSection{
     width: 100%;
-    height: 1000px;
     background-color: rgb(22, 33, 73);
-    position: absolute;
 }
 
 .heading{
@@ -155,6 +154,7 @@ font-family: Arial, Helvetica, sans-serifs;
     font-weight: bold;
 }
 .heading h3{
+    margin-top: 0;
     color: rgb(0, 188, 250);
 }
 .talent{
@@ -263,4 +263,104 @@ font-family: Arial, Helvetica, sans-serifs;
     text-align: center;
     margin-top: 30px;
     color: aliceblue;
+}
+
+/* skills-section */
+#skills-section {
+    width: 100%;
+    height: 100vh;
+}
+.skill-heading h2{
+color: rgb(0, 152, 255);
+text-align: center;
+font-family: Arial, Helvetica, sans-serifs;
+}
+.skill-heading p{
+    text-align: center;
+font-family: Arial, Helvetica, sans-serifs;
+font-size: 40px;
+font-weight: bold;
+color: aliceblue;
+}
+/*   serviceSection */
+.service-section{
+    width: 100%;
+    background-color: rgb(22, 33, 73);
+    height: 150vh;
+}
+.service-section .span{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 152, 255);
+    letter-spacing: normal;
+    font-size: 25px;
+}
+.service-section .parag{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: normal;
+    font-size: 50px;
+}
+.service-cards{
+    align-items: center;
+    display: flex;
+    padding-left: 180px; 
+}
+.service-card2{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(67, 45, 146);
+    text-align: center;
+    border-radius: 10px;  
+}
+.service-card2 .hp {
+    padding-top: 30px;
+}
+.service-card2 h3{
+    padding-top: 20px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.service-card2 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(137, 130, 161); 
+}
+.service-card1{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(59, 43, 114);
+    text-align: center;
+    border-radius: 10px;
+}
+.service-card1 .hp{
+    padding-top: 30px;
+}
+.service-card1 h3{
+    padding-top: 20px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.service-card1 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(137, 130, 161); 
+}
+/* responsive css */
+/* hero section */
+/* @media (min-width:360px) and (mas-width:768px) {} */
+/* @media (min-width:768px) and (mas-width:920px) {} */
+/* @media (min-width:920px) and (mas-width:1240px) {} */
+/* @media (min-width:1240px) and (mas-width:1920px) {} */
+@media (min-width:360px) and (max-width:768px) {
+    
 }
