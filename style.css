@@ -268,7 +268,7 @@ font-family: Arial, Helvetica, sans-serifs;
 /* skills-section */
 #skills-section {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 .skill-heading h2{
 color: rgb(0, 152, 255);
@@ -281,6 +281,67 @@ font-family: Arial, Helvetica, sans-serifs;
 font-size: 40px;
 font-weight: bold;
 color: aliceblue;
+}
+.custom{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.single-skill{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 0 1rem;
+    margin-top: 60px;
+}
+.topic{
+    color: aliceblue;
+    font-weight: 500;
+}
+.bar{
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: rgb(0, 152, 255);
+}
+.bar-1{
+    width: 95%;
+}
+.bar-2{
+    width: 75%;
+}
+.bar-3{
+    width: 90%;
+}
+.bar-4{
+    width: 70%;
+}
+.bar-5{
+    width: 80%;
+}
+.bar-6{
+    width: 60%;
+}
+@media screen and (min-width:786px){
+    .wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width:1024px){
+    body{
+        margin: 0;
+    }
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .custom{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 /*   serviceSection */
 .service-section{
@@ -354,6 +415,95 @@ color: aliceblue;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(137, 130, 161); 
+}
+/* reasume styling */
+#reasume {
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(22, 33, 73);
+}
+.reasume-heading h2{
+color: rgb(0, 152, 255);
+text-align: center;
+font-family: Arial, Helvetica, sans-serifs;
+font-size: 20px;
+}
+.reasume-heading p{
+    text-align: center;
+font-family: Arial, Helvetica, sans-serifs;
+font-size: 40px;
+font-weight: bold;
+color: aliceblue;
+}
+.reasume-items{
+    display: flex;
+}
+.edu{
+    width: 50%;
+}
+.edu h2{
+    padding-left:2rem;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.educa{
+    padding-left: 9rem;
+}
+.educa h3{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.educa h3 span{
+    font-size: 12px;
+    color: rgb(137, 130, 161);
+}
+.educa h4{
+    font-size: 15px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.educa p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(137, 130, 161);
+}
+.exp{
+    width: 50%;
+}
+.exp h2{
+    padding-left: 13rem;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.exper{
+    padding-left: 20rem;
+}
+.exper h3{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.exper h3 span{
+    font-size: 12px;
+    color: rgb(137, 130, 161);
+}
+.exper h4{
+    font-size: 15px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.exper p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(137, 130, 161);
 }
 /* responsive css */
 /* hero section */
