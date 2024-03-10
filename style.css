@@ -291,6 +291,9 @@ color: aliceblue;
     margin-left: 1rem;
     margin-right: 1rem;
 }
+.skillper{
+    
+}
 .single-skill{
     display: flex;
     position: relative;
@@ -419,7 +422,7 @@ color: aliceblue;
 /* reasume styling */
 #reasume {
     width: 100%;
-    height: 110vh;
+    height: 130vh;
     background-color: rgb(22, 33, 73);
 }
 .reasume-heading h2{
@@ -504,6 +507,87 @@ color: aliceblue;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(137, 130, 161);
+}
+/* portifolioSecction styling */
+#portifolioSecction {
+    height: 150vh;
+}
+.menu2{
+    display: flex;
+    text-wrap: nowrap;
+    padding-left: 23rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu2 ul li{
+    list-style: none;
+}
+.menu2 ul li a{
+    color: aliceblue;
+    list-style: none;
+}
+.menu2 a{
+    text-decoration: none;
+    text-align: center;
+}
+.menu2 a:hover{
+    color: rgb(0, 152, 255);
+    transition: 0.2s;
+}
+.portifolio-images{
+    margin-top: 40px;
+}
+.c-images{
+    display: flex;
+    padding-left: 10rem;
+}
+.c-images img{
+    width:250px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+.img1{
+    height: 300px;
+}
+.img2{
+    height: 200px;
+}
+.img3{
+    height: 300px;
+}
+.img4{
+height: 200px;
+}
+.img5{
+height: 200px;
+}
+.img6{
+height: 300px;
+margin-top: -6.2rem;
+}
+.img7{
+    height: 200px;
+}
+.img8{
+    height: 300px;
+    margin-top: -6.2rem;
+}
+/* testimonial-section */
+#testimonial-section{
+    height: 100vh;
+}
+.heading h1{
+    font-size: 150px;
+    margin-top: -8rem;
+    color: rgb(0, 152, 255);
+}
+.heading .lorem{
+    font-size: 30px;
+    font-weight: normal;
+    word-spacing: 1px;
+    margin-top: -6rem;
 }
 /* responsive css */
 /* hero section */
