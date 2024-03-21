@@ -715,12 +715,196 @@ padding: 22px;
     .blog-box{
         margin: 20px 10px;
         width: 100%;
-        height: 200px;
     }
     #blog-section{
         padding: 20px;
     }
 
+}
+/* contact-section */
+#contact-section{
+    width: 100%;
+    height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.contact-container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+}
+.contact-container .contactinfo .contact-box{
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    margin-left: 12rem;
+    
+}
+.contact-container .contactinfo .contact-box .contact-img{
+    min-width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 152, 255);;
+    border-radius: 50%;
+}
+.contact-container .contactinfo .contact-box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: aliceblue;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-top: -6px;
+}
+.contact-container .contactinfo .contact-box .text h3{
+    font-weight: 500;
+    color: aliceblue;
+}
+.contact-container .contactinfo .contact-box .text p{
+    font-size: 12px;
+    color: rgb(137, 130, 161);
+    margin-top: -10px;
+}
+.form{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+form{
+    width: 48%;
+}
+.input{
+    margin-bottom: 20px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid rgb(137, 130, 161);;
+    background-color: #fff;
+    background-color: transparent;
+    font-size: 15px;
+    resize: none;
+    border-radius: 5px;
+}
+input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
+    top: -30px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+label{
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: text;
+    color: rgb(137, 130, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.row .input{
+    flex-basis: 46%;
+}
+button{
+    background-color: rgb(0, 152, 255);;
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+    border: none;
+}
+/* sucribe section */
+#subcribe{
+    width: 100%;
+    height: 100vh;
+    
+}
+.sub-now{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub-box{
+    width: 80%;
+    height: 250px;
+    margin-left: 8rem;
+    background-color: rgb(67, 45, 146);
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+}
+.texts{
+    width: 50%;
+    padding-top: 50px;
+
+}
+.texts span{
+    color: rgb(0, 152, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 60px;
+}
+.texts h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 60px;
+}
+.texts p{
+    color: rgb(137, 130, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 60px;
+}
+.input-email{
+    margin-bottom: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 30%;
+    
+}
+.input-email label{
+    height: 100%;
+    padding: 0px;
+    position: absolute;
+    padding-left: 15px;
+    top: 0;
+    cursor: text;
+    color: rgb(137, 130, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.input-email~label,input:valid~label,textarea:focus~label,textarea:valid~label{
+    top: -40px;
+    font-size: 14px;
+    transition: 0.2s;
 }
 /* responsive css */
 /* hero section */
