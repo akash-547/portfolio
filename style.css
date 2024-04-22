@@ -836,7 +836,7 @@ button{
 /* sucribe section */
 #subcribe{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     
 }
 .sub-now{
@@ -905,6 +905,36 @@ button{
     top: -40px;
     font-size: 14px;
     transition: 0.2s;
+}
+/* footer section */
+#footerSection{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+footer h3, h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+footer h3{
+    padding-left: 35px;
+}
+footer ul li{
+    list-style: none;
+    padding-top: 10px;
+    color: rgb(137, 130, 161);
+}
+footer ul li img{
+    width: 15px;
+    
+}
+footer p{
+    color: rgb(137, 130, 161);
 }
 /* responsive css */
 /* hero section */
